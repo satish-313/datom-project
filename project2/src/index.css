@@ -1,0 +1,33 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.box-line{
+  height: 4rem;
+  width: 4rem;
+  background-color: green;
+}
+
+.box-line-change {
+  height: 4rem;
+  width: 4rem;
+  background-color: aqua;
+}
+
+.third-grid{
+  margin-top: 1rem;
+  display: grid;
+  gap: 0.75rem;
+  grid-template-columns: auto auto auto;
+  justify-content: space-evenly;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
